@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5A98E3012B2E522000B67C5A /* pokemonbattleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3002B2E522000B67C5A /* pokemonbattleApp.swift */; };
-		5A98E3032B2E522000B67C5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3022B2E522000B67C5A /* ContentView.swift */; };
 		5A98E3052B2E522100B67C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A98E3042B2E522100B67C5A /* Assets.xcassets */; };
 		5A98E3082B2E522100B67C5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A98E3072B2E522100B67C5A /* Preview Assets.xcassets */; };
+		5A98E3102B2E52BE00B67C5A /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E30F2B2E52BE00B67C5A /* Creature.swift */; };
+		5A98E3122B2E52CB00B67C5A /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3112B2E52CB00B67C5A /* Move.swift */; };
+		5A98E3142B2E52D600B67C5A /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3132B2E52D600B67C5A /* Battle.swift */; };
+		5A98E3162B2E52E100B67C5A /* BattleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3152B2E52E100B67C5A /* BattleState.swift */; };
+		5A98E3182B2E540900B67C5A /* BattleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3172B2E540900B67C5A /* BattleManager.swift */; };
+		5A98E31A2B2E544500B67C5A /* BattleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E3192B2E544500B67C5A /* BattleScreen.swift */; };
+		5A98E31C2B2E54D700B67C5A /* BattleStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E31B2B2E54D700B67C5A /* BattleStatusView.swift */; };
+		5A98E31E2B2E54EA00B67C5A /* HealthBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E31D2B2E54EA00B67C5A /* HealthBarView.swift */; };
+		5A98E3202B2E54F900B67C5A /* BattleActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E31F2B2E54F900B67C5A /* BattleActionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A98E2FD2B2E522000B67C5A /* pokemonbattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemonbattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A98E3002B2E522000B67C5A /* pokemonbattleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonbattleApp.swift; sourceTree = "<group>"; };
-		5A98E3022B2E522000B67C5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A98E3042B2E522100B67C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A98E3072B2E522100B67C5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A98E3092B2E522100B67C5A /* pokemonbattle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pokemonbattle.entitlements; sourceTree = "<group>"; };
+		5A98E30F2B2E52BE00B67C5A /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		5A98E3112B2E52CB00B67C5A /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		5A98E3132B2E52D600B67C5A /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		5A98E3152B2E52E100B67C5A /* BattleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleState.swift; sourceTree = "<group>"; };
+		5A98E3172B2E540900B67C5A /* BattleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleManager.swift; sourceTree = "<group>"; };
+		5A98E3192B2E544500B67C5A /* BattleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleScreen.swift; sourceTree = "<group>"; };
+		5A98E31B2B2E54D700B67C5A /* BattleStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleStatusView.swift; sourceTree = "<group>"; };
+		5A98E31D2B2E54EA00B67C5A /* HealthBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBarView.swift; sourceTree = "<group>"; };
+		5A98E31F2B2E54F900B67C5A /* BattleActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleActionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				5A98E3002B2E522000B67C5A /* pokemonbattleApp.swift */,
-				5A98E3022B2E522000B67C5A /* ContentView.swift */,
+				5A98E30F2B2E52BE00B67C5A /* Creature.swift */,
+				5A98E3172B2E540900B67C5A /* BattleManager.swift */,
+				5A98E3192B2E544500B67C5A /* BattleScreen.swift */,
+				5A98E31B2B2E54D700B67C5A /* BattleStatusView.swift */,
+				5A98E31D2B2E54EA00B67C5A /* HealthBarView.swift */,
+				5A98E31F2B2E54F900B67C5A /* BattleActionsView.swift */,
+				5A98E3112B2E52CB00B67C5A /* Move.swift */,
+				5A98E3132B2E52D600B67C5A /* Battle.swift */,
+				5A98E3152B2E52E100B67C5A /* BattleState.swift */,
 				5A98E3042B2E522100B67C5A /* Assets.xcassets */,
 				5A98E3092B2E522100B67C5A /* pokemonbattle.entitlements */,
 				5A98E3062B2E522100B67C5A /* Preview Content */,
@@ -139,8 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A98E3032B2E522000B67C5A /* ContentView.swift in Sources */,
+				5A98E3122B2E52CB00B67C5A /* Move.swift in Sources */,
+				5A98E31A2B2E544500B67C5A /* BattleScreen.swift in Sources */,
+				5A98E3182B2E540900B67C5A /* BattleManager.swift in Sources */,
+				5A98E31E2B2E54EA00B67C5A /* HealthBarView.swift in Sources */,
+				5A98E3202B2E54F900B67C5A /* BattleActionsView.swift in Sources */,
 				5A98E3012B2E522000B67C5A /* pokemonbattleApp.swift in Sources */,
+				5A98E31C2B2E54D700B67C5A /* BattleStatusView.swift in Sources */,
+				5A98E3142B2E52D600B67C5A /* Battle.swift in Sources */,
+				5A98E3102B2E52BE00B67C5A /* Creature.swift in Sources */,
+				5A98E3162B2E52E100B67C5A /* BattleState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
